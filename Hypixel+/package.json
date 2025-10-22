@@ -1,0 +1,23 @@
+{
+  "name": "hypixel-plus-wiki-resource-pack",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "generate": "node src/index.js"
+  },
+  "engines": {
+	"node": ">=22.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyblock-wiki/wiki-resource-packs.git#main"
+  },
+  "author": "fewfre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skyblock-wiki/wiki-resource-packs/issues"
+  },
+  "homepage": "https://github.com/skyblock-wiki/wiki-resource-packs/tree/main#readme",
+  "description": ""
+}

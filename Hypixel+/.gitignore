@@ -1,3 +1,5 @@
 dist/
-*.json
+**/*.json
+!package.json
 *.properties
+*.DS_Store

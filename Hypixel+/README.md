@@ -6,3 +6,5 @@ When adding / modifiying files, `src/wiki-resource-pack-map.mjs` must be updated
 
 ## Generate CSS
 To generate the CSS, [node.js](https://nodejs.org/) must be installed on your machine, and then you can run `npm run generate`, which will create a css file in a `dist` folder
+
+You can also run this just to test if the `wiki-resource-pack-map.mjs` file is correct, as it will output if any of the local file locations don't exist
