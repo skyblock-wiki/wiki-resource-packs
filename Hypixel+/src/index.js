@@ -54,7 +54,7 @@ export const flattenedData = [...flattenPackFolder(packFolder, resourcepack), ..
 
 const cssLines = [], errors = [];
 flattenedData.forEach(({ selectors, relativePath:relativePathIn })=>{
-	const relativePath = getCorrectFilePath('./'+relativePathIn);
+	const relativePath = getCorrectFilePath(relativePathIn);
 	if(!relativePath) {
 		errors.push(`PNG/GIF not found: ${relativePathIn}`);
 		return;
