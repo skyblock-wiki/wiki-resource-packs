@@ -1,0 +1,7 @@
+dist/
+**/*.json
+!package.json
+!config.json
+*.properties
+*.mcmeta
+*.DS_Store

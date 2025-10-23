@@ -1,0 +1,2 @@
+While most images in the "latest" vanilla mc resource pack are taken from the minecraft wiki directly, some assets can't be for various reasons:
+- Colored leather armor doesn't have every possible image stored on the MC wiki, so each is custom made and added here

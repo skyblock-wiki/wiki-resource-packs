@@ -1,5 +1,0 @@
-dist/
-**/*.json
-!package.json
-*.properties
-*.DS_Store
