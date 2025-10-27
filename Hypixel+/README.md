@@ -1,6 +1,6 @@
 
 ## Update file map
-When adding / modifiying files, `src/wiki-resource-pack-map.mjs` must be updated for the change be be reflected in the generated css file.
+When adding / moving files, `src/wiki-resource-pack-map.mjs` must be updated for the change be be reflected in the generated css file.
 
 `index.js` is where all the generation logic is stored, and should not needed to be updated when updating the pack
 
