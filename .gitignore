@@ -1,4 +1,3 @@
-dist/
 **/*.json
 !package.json
 !config.json
