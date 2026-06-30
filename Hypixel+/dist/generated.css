@@ -1,4 +1,5 @@
 /* Script for generating this CSS is at: https://github.com/skyblock-wiki/wiki-resource-packs/tree/main/Hypixel+ */
+body #content {
 img[alt="Artisanal Shortbow"], img[alt="Artisanal Shortbow.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/v0.25.0/assets/hplus/textures/skyblock/weapons/bows/artisanal_shortbow.png') }
 img[alt="Bingbow"], img[alt="Bingbow.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/v0.25.0/assets/hplus/textures/skyblock/weapons/bows/bingbow.png') }
 img[alt="Bonemerang"], img[alt="Bonemerang.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/v0.25.0/assets/hplus/textures/skyblock/weapons/bows/bone_boomerang.png') }
@@ -2219,7 +2220,7 @@ img[alt="Feast Flask"], img[alt="Feast Flask.png"] { content: url('https://skybl
 img[alt="Feastfungus"], img[alt="Feastfungus.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/v0.25.0/assets/hplus/textures/skyblock/items/events/harvest_feast/feastfungus.png') }
 img[alt="Finn's Focaccia"], img[alt="Finn's Focaccia.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/v0.25.0/assets/hplus/textures/skyblock/items/events/harvest_feast/finn_focaccia.png') }
 img[alt="Floral Gelatin"], img[alt="Floral Gelatin.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/v0.25.0/assets/hplus/textures/skyblock/items/events/harvest_feast/floral_gelatin.png') }
-img[alt=""Fragranced" Brown Mushroom Paste"], img[alt=""Fragranced" Brown Mushroom Paste.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/v0.25.0/assets/hplus/textures/skyblock/items/events/harvest_feast/fragranced_brown_mushroom_paste.png') }
+img[alt="\"Fragranced\" Brown Mushroom Paste"], img[alt="\"Fragranced\" Brown Mushroom Paste.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/v0.25.0/assets/hplus/textures/skyblock/items/events/harvest_feast/fragranced_brown_mushroom_paste.png') }
 img[alt="Fungal Tip Jar"], img[alt="Fungal Tip Jar.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/v0.25.0/assets/hplus/textures/skyblock/items/events/harvest_feast/fungal_tip_jar.png') }
 img[alt="Jacob's Participation Medal"], img[alt="Jacob's Participation Medal.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/v0.25.0/assets/hplus/textures/skyblock/items/events/harvest_feast/jacobs_participation_medal.png') }
 img[alt="Melon Juice"], img[alt="Melon Juice.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/v0.25.0/assets/hplus/textures/skyblock/items/events/harvest_feast/melon_juice.png') }
@@ -4266,3 +4267,4 @@ img[alt="Silver Medal"], img[alt="Silver Medal.png"], img[data-image-name="Silve
 img[alt="Gold Medal"], img[alt="Gold Medal.png"], img[data-image-name="Gold Medal.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/extra-ui/ui/jacob_contest/gold_medal.png') }
 img[alt="Platinum Medal"], img[alt="Platinum Medal.png"], img[data-image-name="Platinum Medal.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/extra-ui/ui/jacob_contest/platinum_medal.png') }
 img[alt="Diamond Medal"], img[alt="Diamond Medal.png"], img[data-image-name="Diamond Medal.png"] { content: url('https://skyblock-wiki.github.io/wiki-resource-packs/Hypixel+/extra-ui/ui/jacob_contest/diamond_medal.png') }
+}

@@ -2731,7 +2731,7 @@ export const resourcepack = new Folder({
 					"feastfungus": [ IMG`Feastfungus` ],
 					"finn_focaccia": [ IMG`Finn\'s Focaccia` ],
 					"floral_gelatin": [ IMG`Floral Gelatin` ],
-					"fragranced_brown_mushroom_paste": [ IMG`\"Fragranced\" Brown Mushroom Paste` ],
+					"fragranced_brown_mushroom_paste": [ IMG`\\\"Fragranced\\\" Brown Mushroom Paste` ], // we need both the \\ AND the \" since we not only need to escape it here, but in the actual css too
 					"fungal_tip_jar": [ IMG`Fungal Tip Jar` ],
 					"jacobs_participation_medal": [ IMG`Jacob\'s Participation Medal` ],
 					"melon_juice": [ IMG`Melon Juice` ],

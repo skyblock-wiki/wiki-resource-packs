@@ -1,5 +1,5 @@
-import { resourcepack, resourcepack_extra_ui, Folder, packFolder, extraUiFolder } from './wiki-resource-pack-map.mjs'
-import fs from 'fs'
+import fs from 'fs';
+import { extraUiFolder, Folder, packFolder, resourcepack, resourcepack_extra_ui } from './wiki-resource-pack-map.mjs';
 
 /////////////////////////////
 //#region Constants
@@ -53,6 +53,7 @@ function getCorrectFilePath(relativePath) {
 export const flattenedData = [...flattenPackFolder(packFolder, resourcepack), ...flattenPackFolder(extraUiFolder, resourcepack_extra_ui)];
 
 const cssLines = [], errors = [];
+cssLines.push('body #content {'); // This adds increased specificity to the selectors which is needed to override the `betterenchantmentglint` plugin script also trying to change the images
 flattenedData.forEach(({ selectors, relativePath:relativePathIn })=>{
 	const relativePath = getCorrectFilePath(relativePathIn);
 	if(!relativePath) {
@@ -63,6 +64,7 @@ flattenedData.forEach(({ selectors, relativePath:relativePathIn })=>{
 	const fileUrl = `${rootUrl}/${relativePath}`;
 	cssLines.push(`${selectors.join(', ')} { content: url('${fileUrl}') }`);
 });
+cssLines.push('}');
 
 /////////////////////////////
 //#region Error Handling
